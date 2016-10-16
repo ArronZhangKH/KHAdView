@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		488CD8941DB2837F003B2D00 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 488CD8931DB2837F003B2D00 /* TestViewController.m */; };
+		BCE9A4CB1D9CBBA700316105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE9A4CA1D9CBBA700316105 /* main.m */; };
+		BCE9A4CE1D9CBBA700316105 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE9A4CD1D9CBBA700316105 /* AppDelegate.m */; };
+		BCE9A4D41D9CBBA700316105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE9A4D21D9CBBA700316105 /* Main.storyboard */; };
+		BCE9A4D61D9CBBA700316105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE9A4D51D9CBBA700316105 /* Assets.xcassets */; };
+		BCE9A4D91D9CBBA700316105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE9A4D71D9CBBA700316105 /* LaunchScreen.storyboard */; };
+		BCE9A4E41D9CBBA700316105 /* KHAdView_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE9A4E31D9CBBA700316105 /* KHAdView_DemoTests.m */; };
+		BCE9A4EF1D9CBBA700316105 /* KHAdView_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE9A4EE1D9CBBA700316105 /* KHAdView_DemoUITests.m */; };
+		BCE9A5021D9CBBE800316105 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE9A5011D9CBBE800316105 /* ViewController.m */; };
+		BCE9A5071D9CBCAA00316105 /* KHAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE9A5061D9CBCAA00316105 /* KHAdView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCE9A4E01D9CBBA700316105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE9A4BE1D9CBBA700316105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE9A4C51D9CBBA700316105;
+			remoteInfo = KHAdView_Demo;
+		};
+		BCE9A4EB1D9CBBA700316105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE9A4BE1D9CBBA700316105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE9A4C51D9CBBA700316105;
+			remoteInfo = KHAdView_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		488CD8921DB2837F003B2D00 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		488CD8931DB2837F003B2D00 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		BCE9A4C61D9CBBA700316105 /* KHAdView_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KHAdView_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE9A4CA1D9CBBA700316105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCE9A4CC1D9CBBA700316105 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCE9A4CD1D9CBBA700316105 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCE9A4D31D9CBBA700316105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCE9A4D51D9CBBA700316105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCE9A4D81D9CBBA700316105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCE9A4DA1D9CBBA700316105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE9A4DF1D9CBBA700316105 /* KHAdView_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KHAdView_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE9A4E31D9CBBA700316105 /* KHAdView_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHAdView_DemoTests.m; sourceTree = "<group>"; };
+		BCE9A4E51D9CBBA700316105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE9A4EA1D9CBBA700316105 /* KHAdView_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KHAdView_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE9A4EE1D9CBBA700316105 /* KHAdView_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHAdView_DemoUITests.m; sourceTree = "<group>"; };
+		BCE9A4F01D9CBBA700316105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE9A5001D9CBBE800316105 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCE9A5011D9CBBE800316105 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCE9A5051D9CBCAA00316105 /* KHAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KHAdView.h; path = KHAdView_Demo/KHAdView.h; sourceTree = "<group>"; };
+		BCE9A5061D9CBCAA00316105 /* KHAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KHAdView.m; path = KHAdView_Demo/KHAdView.m; sourceTree = "<group>"; };
+		BCE9A5081D9CBCB500316105 /* Interfaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Interfaces.h; path = KHAdView_Demo/Interfaces.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCE9A4C31D9CBBA700316105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE9A4DC1D9CBBA700316105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE9A4E71D9CBBA700316105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCE9A4BD1D9CBBA700316105 = {
+			isa = PBXGroup;
+			children = (
+				BCE9A5041D9CBC0700316105 /* Internet Interface */,
+				BCE9A5031D9CBC0000316105 /* KHAdView */,
+				BCE9A4C81D9CBBA700316105 /* KHAdView_Demo */,
+				BCE9A4E21D9CBBA700316105 /* KHAdView_DemoTests */,
+				BCE9A4ED1D9CBBA700316105 /* KHAdView_DemoUITests */,
+				BCE9A4C71D9CBBA700316105 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCE9A4C71D9CBBA700316105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCE9A4C61D9CBBA700316105 /* KHAdView_Demo.app */,
+				BCE9A4DF1D9CBBA700316105 /* KHAdView_DemoTests.xctest */,
+				BCE9A4EA1D9CBBA700316105 /* KHAdView_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCE9A4C81D9CBBA700316105 /* KHAdView_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				BCE9A4CC1D9CBBA700316105 /* AppDelegate.h */,
+				BCE9A4CD1D9CBBA700316105 /* AppDelegate.m */,
+				BCE9A5001D9CBBE800316105 /* ViewController.h */,
+				BCE9A5011D9CBBE800316105 /* ViewController.m */,
+				488CD8921DB2837F003B2D00 /* TestViewController.h */,
+				488CD8931DB2837F003B2D00 /* TestViewController.m */,
+				BCE9A4D21D9CBBA700316105 /* Main.storyboard */,
+				BCE9A4D51D9CBBA700316105 /* Assets.xcassets */,
+				BCE9A4D71D9CBBA700316105 /* LaunchScreen.storyboard */,
+				BCE9A4DA1D9CBBA700316105 /* Info.plist */,
+				BCE9A4C91D9CBBA700316105 /* Supporting Files */,
+			);
+			path = KHAdView_Demo;
+			sourceTree = "<group>";
+		};
+		BCE9A4C91D9CBBA700316105 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCE9A4CA1D9CBBA700316105 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCE9A4E21D9CBBA700316105 /* KHAdView_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE9A4E31D9CBBA700316105 /* KHAdView_DemoTests.m */,
+				BCE9A4E51D9CBBA700316105 /* Info.plist */,
+			);
+			path = KHAdView_DemoTests;
+			sourceTree = "<group>";
+		};
+		BCE9A4ED1D9CBBA700316105 /* KHAdView_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE9A4EE1D9CBBA700316105 /* KHAdView_DemoUITests.m */,
+				BCE9A4F01D9CBBA700316105 /* Info.plist */,
+			);
+			path = KHAdView_DemoUITests;
+			sourceTree = "<group>";
+		};
+		BCE9A5031D9CBC0000316105 /* KHAdView */ = {
+			isa = PBXGroup;
+			children = (
+				BCE9A5051D9CBCAA00316105 /* KHAdView.h */,
+				BCE9A5061D9CBCAA00316105 /* KHAdView.m */,
+			);
+			name = KHAdView;
+			sourceTree = "<group>";
+		};
+		BCE9A5041D9CBC0700316105 /* Internet Interface */ = {
+			isa = PBXGroup;
+			children = (
+				BCE9A5081D9CBCB500316105 /* Interfaces.h */,
+			);
+			name = "Internet Interface";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCE9A4C51D9CBBA700316105 /* KHAdView_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE9A4F31D9CBBA700316105 /* Build configuration list for PBXNativeTarget "KHAdView_Demo" */;
+			buildPhases = (
+				BCE9A4C21D9CBBA700316105 /* Sources */,
+				BCE9A4C31D9CBBA700316105 /* Frameworks */,
+				BCE9A4C41D9CBBA700316105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KHAdView_Demo;
+			productName = KHAdView_Demo;
+			productReference = BCE9A4C61D9CBBA700316105 /* KHAdView_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCE9A4DE1D9CBBA700316105 /* KHAdView_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE9A4F61D9CBBA700316105 /* Build configuration list for PBXNativeTarget "KHAdView_DemoTests" */;
+			buildPhases = (
+				BCE9A4DB1D9CBBA700316105 /* Sources */,
+				BCE9A4DC1D9CBBA700316105 /* Frameworks */,
+				BCE9A4DD1D9CBBA700316105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE9A4E11D9CBBA700316105 /* PBXTargetDependency */,
+			);
+			name = KHAdView_DemoTests;
+			productName = KHAdView_DemoTests;
+			productReference = BCE9A4DF1D9CBBA700316105 /* KHAdView_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCE9A4E91D9CBBA700316105 /* KHAdView_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE9A4F91D9CBBA700316105 /* Build configuration list for PBXNativeTarget "KHAdView_DemoUITests" */;
+			buildPhases = (
+				BCE9A4E61D9CBBA700316105 /* Sources */,
+				BCE9A4E71D9CBBA700316105 /* Frameworks */,
+				BCE9A4E81D9CBBA700316105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE9A4EC1D9CBBA700316105 /* PBXTargetDependency */,
+			);
+			name = KHAdView_DemoUITests;
+			productName = KHAdView_DemoUITests;
+			productReference = BCE9A4EA1D9CBBA700316105 /* KHAdView_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCE9A4BE1D9CBBA700316105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Arron_zkh;
+				TargetAttributes = {
+					BCE9A4C51D9CBBA700316105 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					BCE9A4DE1D9CBBA700316105 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCE9A4C51D9CBBA700316105;
+					};
+					BCE9A4E91D9CBBA700316105 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCE9A4C51D9CBBA700316105;
+					};
+				};
+			};
+			buildConfigurationList = BCE9A4C11D9CBBA700316105 /* Build configuration list for PBXProject "KHAdView_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCE9A4BD1D9CBBA700316105;
+			productRefGroup = BCE9A4C71D9CBBA700316105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCE9A4C51D9CBBA700316105 /* KHAdView_Demo */,
+				BCE9A4DE1D9CBBA700316105 /* KHAdView_DemoTests */,
+				BCE9A4E91D9CBBA700316105 /* KHAdView_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCE9A4C41D9CBBA700316105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE9A4D91D9CBBA700316105 /* LaunchScreen.storyboard in Resources */,
+				BCE9A4D61D9CBBA700316105 /* Assets.xcassets in Resources */,
+				BCE9A4D41D9CBBA700316105 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE9A4DD1D9CBBA700316105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE9A4E81D9CBBA700316105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE9A4C21D9CBBA700316105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE9A5071D9CBCAA00316105 /* KHAdView.m in Sources */,
+				BCE9A4CE1D9CBBA700316105 /* AppDelegate.m in Sources */,
+				BCE9A5021D9CBBE800316105 /* ViewController.m in Sources */,
+				BCE9A4CB1D9CBBA700316105 /* main.m in Sources */,
+				488CD8941DB2837F003B2D00 /* TestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE9A4DB1D9CBBA700316105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE9A4E41D9CBBA700316105 /* KHAdView_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE9A4E61D9CBBA700316105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE9A4EF1D9CBBA700316105 /* KHAdView_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCE9A4E11D9CBBA700316105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE9A4C51D9CBBA700316105 /* KHAdView_Demo */;
+			targetProxy = BCE9A4E01D9CBBA700316105 /* PBXContainerItemProxy */;
+		};
+		BCE9A4EC1D9CBBA700316105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE9A4C51D9CBBA700316105 /* KHAdView_Demo */;
+			targetProxy = BCE9A4EB1D9CBBA700316105 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCE9A4D21D9CBBA700316105 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE9A4D31D9CBBA700316105 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCE9A4D71D9CBBA700316105 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE9A4D81D9CBBA700316105 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCE9A4F11D9CBBA700316105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCE9A4F21D9CBBA700316105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCE9A4F41D9CBBA700316105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KHAdView_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Arron-zkh.KHAdView-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCE9A4F51D9CBBA700316105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KHAdView_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Arron-zkh.KHAdView-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCE9A4F71D9CBBA700316105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KHAdView_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Arron-zkh.KHAdView-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KHAdView_Demo.app/KHAdView_Demo";
+			};
+			name = Debug;
+		};
+		BCE9A4F81D9CBBA700316105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KHAdView_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Arron-zkh.KHAdView-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KHAdView_Demo.app/KHAdView_Demo";
+			};
+			name = Release;
+		};
+		BCE9A4FA1D9CBBA700316105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KHAdView_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Arron-zkh.KHAdView-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KHAdView_Demo;
+			};
+			name = Debug;
+		};
+		BCE9A4FB1D9CBBA700316105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KHAdView_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Arron-zkh.KHAdView-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KHAdView_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCE9A4C11D9CBBA700316105 /* Build configuration list for PBXProject "KHAdView_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE9A4F11D9CBBA700316105 /* Debug */,
+				BCE9A4F21D9CBBA700316105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE9A4F31D9CBBA700316105 /* Build configuration list for PBXNativeTarget "KHAdView_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE9A4F41D9CBBA700316105 /* Debug */,
+				BCE9A4F51D9CBBA700316105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE9A4F61D9CBBA700316105 /* Build configuration list for PBXNativeTarget "KHAdView_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE9A4F71D9CBBA700316105 /* Debug */,
+				BCE9A4F81D9CBBA700316105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE9A4F91D9CBBA700316105 /* Build configuration list for PBXNativeTarget "KHAdView_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE9A4FA1D9CBBA700316105 /* Debug */,
+				BCE9A4FB1D9CBBA700316105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCE9A4BE1D9CBBA700316105 /* Project object */;
+}
