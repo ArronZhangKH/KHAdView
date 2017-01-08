@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		488CD8941DB2837F003B2D00 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 488CD8931DB2837F003B2D00 /* TestViewController.m */; };
+		6A662E841E21F3EF00E7BA30 /* ImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A662E831E21F3EF00E7BA30 /* ImgViewController.m */; };
 		BCE9A4CB1D9CBBA700316105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE9A4CA1D9CBBA700316105 /* main.m */; };
 		BCE9A4CE1D9CBBA700316105 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE9A4CD1D9CBBA700316105 /* AppDelegate.m */; };
 		BCE9A4D41D9CBBA700316105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE9A4D21D9CBBA700316105 /* Main.storyboard */; };
@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		488CD8921DB2837F003B2D00 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		488CD8931DB2837F003B2D00 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		6A662E821E21F3EF00E7BA30 /* ImgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgViewController.h; sourceTree = "<group>"; };
+		6A662E831E21F3EF00E7BA30 /* ImgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgViewController.m; sourceTree = "<group>"; };
 		BCE9A4C61D9CBBA700316105 /* KHAdView_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KHAdView_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE9A4CA1D9CBBA700316105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCE9A4CC1D9CBBA700316105 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,8 +114,8 @@
 				BCE9A4CD1D9CBBA700316105 /* AppDelegate.m */,
 				BCE9A5001D9CBBE800316105 /* ViewController.h */,
 				BCE9A5011D9CBBE800316105 /* ViewController.m */,
-				488CD8921DB2837F003B2D00 /* TestViewController.h */,
-				488CD8931DB2837F003B2D00 /* TestViewController.m */,
+				6A662E821E21F3EF00E7BA30 /* ImgViewController.h */,
+				6A662E831E21F3EF00E7BA30 /* ImgViewController.m */,
 				BCE9A4D21D9CBBA700316105 /* Main.storyboard */,
 				BCE9A4D51D9CBBA700316105 /* Assets.xcassets */,
 				BCE9A4D71D9CBBA700316105 /* LaunchScreen.storyboard */,
@@ -230,7 +230,7 @@
 		BCE9A4BE1D9CBBA700316105 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Arron_zkh;
 				TargetAttributes = {
 					BCE9A4C51D9CBBA700316105 = {
@@ -304,8 +304,8 @@
 				BCE9A5071D9CBCAA00316105 /* KHAdView.m in Sources */,
 				BCE9A4CE1D9CBBA700316105 /* AppDelegate.m in Sources */,
 				BCE9A5021D9CBBE800316105 /* ViewController.m in Sources */,
+				6A662E841E21F3EF00E7BA30 /* ImgViewController.m in Sources */,
 				BCE9A4CB1D9CBBA700316105 /* main.m in Sources */,
-				488CD8941DB2837F003B2D00 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +378,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -425,6 +426,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
